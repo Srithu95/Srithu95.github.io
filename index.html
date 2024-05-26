@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="eshop.css">
+    <link rel="stylesheet" href="e-shop.css">
     <title>e-shop</title>
 </head>
 <body>
-    
+    <!-- here is the nav part -->
    <nav>
     <div>+98377636</div>
     <div>Get 50% off on selected items   |    Shop Now</div>
     <div>
+    <img src="./images/cart.svg" class="cart"/>
+    <div id="cart-count">0</div>
+<div class="overlay">
+
+    <div class="modal-content">
+
+        <div id="cart-container">
+    
+        </div>
+    </div>
+</div>
+
     <select name="Language" id="Language">
         <option value="English">English</option>
         <option value="Arabic">Arabic</option>
@@ -34,13 +46,8 @@
             <li>Deals</li>
             <li>Whats New</li>
             <li>Delivery</li>
-        </ul>
+         </ul>
         </div>
-        <div class="icon">
-          <img src="./images/account-icon--.png" alt=""/> 
-            <img src="./images/cart-icon-.png" alt=""/>
-        </div>
-          
     <div>
     <select name="Location" id="Location">
         <option value="Dubai">Dubai</option>
@@ -55,7 +62,7 @@
     <div>
         <p class="main-text">Grab up to 50% off on selection</p>
         <div>
-        <button class="btn">SHOP NOW</button>
+        <button class="btn">Buy Now</button>
     </div>
     </div>
     <img src="./images/girlheadphones.png" alt="">
@@ -90,8 +97,11 @@
    <div class="category-name">
     <h2>Headphones For You!</h2>
    </div>
-<div class="items">
-<div class="card">
+
+
+
+<div class="items" id="items">
+<!-- <div class="card">
     <img id="heart" src="./images/heart.png" alt="">
  <img id="img" src="./images/heed.png" alt="">
  <div class="card-name">
@@ -107,10 +117,8 @@
     <img src="./images/star.png" alt="">
     <p>(121)</p>
  </div>
- <div class="button-name">
-    <button>Buy Now</button>
+ <div>
     <button>Add to Cart</button>
-    
  </div>
  
  
@@ -133,8 +141,7 @@
        <img src="./images/star.png" alt="">
        <p>(121)</p>
     </div>
-    <div class="button-name">
-        <button>Buy Now</button>>
+    <div>
        <button>Add to Cart</button>
     </div>
     
@@ -156,8 +163,7 @@
        <img src="./images/star.png" alt="">
        <p>(121)</p>
     </div>
-    <div class="button-name">
-        <button>Buy Now</button>>>
+    <div>
        <button>Add to Cart</button>
     </div>
     
@@ -180,31 +186,13 @@
        <img src="./images/star.png" alt="">
        <p>(121)</p>
     </div>
-    <div class="button-name">
-        <button>Buy Now</button>>>
+    <div>
        <button>Add to Cart</button>
     </div>
-    <div class="category1-name">
-        <h4>See All</h4>
-    </div>
+    
+    
+   </div> -->
 </div>
-</div>
-    <div class="brand-name">
-        <h2>Shop By Brand</h2>
-        </div>
-        <div class="brand-logo">
-        <img src="./images/bose.png" alt=""/>
-        <img src="./images/sonic.png" alt=""/>
-        <img src="./images/akg.png" alt=""/>
-        <img src="./images/audio.png" alt=""/>
-    </div>
-    <div class="Service">
-        <h2>Value Added Services</h2>
-        </div>
-        <div class="Services">
-            <img src="./images/warranty.png" alt=""/>
-            <img src="./images/warr.png" alt=""/>
-            <img src="./images/installment.png" alt=""/>
-
+<script type="module" src="./index.js" ></script>
  </body>
  </html>
